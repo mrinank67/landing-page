@@ -1,11 +1,35 @@
 body {
     display: flex;
     font-family: "Roboto";
-    
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
 .Section1 {
     background: #1F2937;
     display: flex;
     flex-direction: column;
+    color: #f9faf8;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
 }

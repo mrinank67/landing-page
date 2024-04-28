@@ -43,6 +43,7 @@ a {
 .header-text {
     font-size: 24px;
     font-weight: 500;
+    color: #f9faf8;
 }
 .header-links {
     display: flex;
@@ -115,12 +116,63 @@ button {
     flex-direction: column;
     color: #1F2937;
     max-width: 150px;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
 }
-img {
+.Section2 img {
     height: 150px;
     width: 150px;
     border: 5px solid #3882F6;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Section3 {
+    background-color: #E5E7EB;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.q-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.q-author {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: end;
+}
+.Section4 {
+    background-color: #3882F6;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.Section4 button{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+.footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
 }
